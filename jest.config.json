@@ -8,5 +8,8 @@
   ],
   "setupFiles": [
     "./__tests__/mocks/libs/async-storage.js"
+  ],
+  "modulePathIgnorePatterns": [
+    "./__tests__/mocks"
   ]
 }
