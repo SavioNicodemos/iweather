@@ -10,7 +10,7 @@ interface Props {
 
 export function NextDays({ data }: Props) {
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testID='next-days-container'>
       {
         data.map((day) => (
           <Day key={day.day} data={day} />
