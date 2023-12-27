@@ -11,5 +11,9 @@
   ],
   "modulePathIgnorePatterns": [
     "./__tests__/mocks"
-  ]
+  ],
+  "transform": {
+    "^.+\\.jsx?$": "babel-jest",
+    "^.+\\.svg$": "jest-transformer-svg"
+  }
 }
