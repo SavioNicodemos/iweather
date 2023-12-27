@@ -5,5 +5,8 @@
   ],
   "setupFilesAfterEnv": [
     "@testing-library/jest-native/extend-expect"
+  ],
+  "setupFiles": [
+    "./__tests__/mocks/libs/async-storage.js"
   ]
 }
