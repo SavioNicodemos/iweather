@@ -7,7 +7,8 @@
     "@testing-library/jest-native/extend-expect"
   ],
   "setupFiles": [
-    "./__tests__/mocks/libs/async-storage.js"
+    "./__tests__/mocks/libs/async-storage.js",
+    "./__tests__/mocks/libs/react-native-safe-area-context.js"
   ],
   "modulePathIgnorePatterns": [
     "./__tests__/mocks"
